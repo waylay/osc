@@ -76,3 +76,13 @@ if ( ! function_exists( 'understrap_tiny_mce_before_init' ) ) {
 		return $settings;
 	}
 }
+
+add_action('admin_head', 'my_custom_fonts');
+
+function my_custom_fonts() {
+  echo '<style>
+  	.wp-block {
+    	max-width: 1080px;
+	}
+  </style>';
+}

@@ -1,7 +1,20 @@
 $primary: #58585a;
 $secondary: #818185;
+$body-color: $primary;
 
 $font-family-sans-serif: 'Open Sans', sans-serif;
 $font-size-base: 1.125rem;
+$display4-size: 3.35rem;
+$enable-responsive-font-sizes: true;
 
 $info: #00adef;
+
+
+$dropdown-border-radius: 0;
+$dropdown-spacer: 0;
+$dropdown-padding-y: 0;
+$dropdown-bg: $primary;
+$dropdown-link-color: #ffff;
+$dropdown-link-active-color:  $info;
+$dropdown-link-hover-bg: $secondary;
+$dropdown-item-padding-y: .3rem;

@@ -130,3 +130,11 @@ if ( ! function_exists( 'understrap_category_transient_flusher' ) ) {
 		delete_transient( 'understrap_categories' );
 	}
 }
+
+
+function featured_image_as_background($page)
+{
+	if(has_post_thumbnail($page)){
+		return '<div class="page-background-image" style="background-image: url('.get_the_post_thumbnail_url( $page->ID, 'full' ).');"></div>';
+	}
+}
