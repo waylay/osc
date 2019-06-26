@@ -1,0 +1,38 @@
+.navbar-brand {
+    max-width: 500px;
+}
+.navbar {
+    padding-top: .85rem;
+    padding-bottom: .85rem;
+}
+
+.dynamic-footer {
+    font-size: .85rem;
+    em {
+        font-weight: bold;
+        font-size: 1.125rem;
+    }
+}
+
+.dynamic-footer .widget-count-3:nth-of-type(2){
+    img {
+        width: 350px;
+        max-width: 100%;
+        margin: 25px 0;
+    }
+}
+
+@media (min-width: 992px){
+    .navbar-brand {
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+
+    .dynamic-footer .widget-count-3:nth-of-type(2){
+        flex: 0 0 50%;
+        max-width: 50%;
+        img{
+            margin: 25px;
+        }
+    }
+}
